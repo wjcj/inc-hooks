@@ -9,6 +9,9 @@
     "antd4",
     "@ant-design/charts"
   ],
+  "homepage": "https://wjcj.github.io/inc-hooks",
+  "author": "wjcj",
+  "bugs": "https://wjcj.github.io/inc-hooks/issues",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -42,8 +45,7 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "antd": "^3.26.19"
+    "react": "^16.8.6"
   },
   "devDependencies": {
     "@ant-design/charts": "^1.0.21",
@@ -64,5 +66,6 @@
     "mockjs": "^1.1.0",
     "lodash.clonedeep": "^4.5.0",
     "ahooks": "^2.10.8"
-  }
+  },
+  "sideEffects": false
 }
