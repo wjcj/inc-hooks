@@ -1,27 +1,32 @@
-# inc-hooks
+# 简介
 
-## Getting Started
+`inc-hooks` 使 [ant-design](https://ant.design/docs/react/introduce-cn)、[inc-cmpts](https://github.com/wjcj/inc-cmpts) 、[@ant-design/charts](https://charts.ant.design/zh-CN/guide) 接入异步数据更加简单。
 
-Install dependencies,
-
-```bash
-$ npm i
-```
-
-Start the dev server,
+## 安装
 
 ```bash
-$ npm start
+npm install inc-hooks
 ```
 
-Build documentation,
+## 文档
 
-```bash
-$ npm run docs:build
-```
+查看在线示例和文档，请访问[这里](https://wjcj.github.io/inc-hooks)。
 
-Build library via `father-build`,
+## Hooks
 
-```bash
-$ npm run build
-```
+- 数据服务
+  - useRequest
+  - createService
+- 表单
+  - useAutoComplete
+  - useSelect
+  - useTreeSelect
+  - useMentions
+  - useCascader
+  - useUpload
+- 数据展示
+  - useTree
+  - useDownload
+  - useAntdTable
+- 图表
+  - useChart
